@@ -40,7 +40,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color:#e2e0e0;
-    border: 0.5px solid black;
+    /* border: 0.5px solid black; */
     border-radius: 2%;
 
     
@@ -53,13 +53,15 @@ body{
     height:5rem;
     text-align:end;
     background-color: whitesmoke;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
 }
 
 #display{
     font-weight: bold;
     font-size:1.5rem;
+    padding:0px 10px;
+    overflow: hidden;
 
 }
 
@@ -120,6 +122,22 @@ body{
     
 }
 
+/* Responsiveness  */
 
+@media screen and (min-width:600px) {
+    .app{
+        /* max-width: 500px; */
+        max-width:400px;
+        height: 700px;
+        
+    
+        
+    }
+
+    .button-container div{
+        height:5rem;
+        width:5rem;
+    }
+}
 
 

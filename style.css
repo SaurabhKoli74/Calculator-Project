@@ -127,16 +127,16 @@ body{
 @media screen and (min-width:600px) {
     .app{
         /* max-width: 500px; */
-        max-width:400px;
-        height: 700px;
+        max-width:350px;
+        height: 650px;
         
     
         
     }
 
     .button-container div{
-        height:5rem;
-        width:5rem;
+        height:4.5rem;
+        width:4.5rem;
     }
 }
 

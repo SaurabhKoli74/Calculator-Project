@@ -11,6 +11,8 @@ function calc() {
     //'this' contains the element on which the handler is called
     // console.log(this.getAttribute('data-value'));
     var temp = this.getAttribute('data-value');
+    
+    
     if (temp === '+' || temp === '-' || temp === '/' || temp === '*') {
         if (operator === null) {
             if (display.innerHTML !== '') {

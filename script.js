@@ -44,7 +44,7 @@ function calc() {
             // console.log(res);
 
             operator = null;
-            display.innerHTML = res;
+            display.innerHTML = '';
         }
     } else if (temp == 'c') {
         display.innerHTML = '';

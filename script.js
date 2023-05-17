@@ -30,7 +30,7 @@ function calc() {
             operator = temp;
             op1 = res;
             op2 = null;
-            display.innerHTML=res;
+            display.innerHTML='';
             
         }
 
@@ -44,7 +44,7 @@ function calc() {
             // console.log(res);
 
             operator = null;
-            display.innerHTML = '';
+            display.innerHTML = res;
         }
     } else if (temp == 'c') {
         display.innerHTML = '';
